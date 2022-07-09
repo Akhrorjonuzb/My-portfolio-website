@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link rel="stylesheet" href="newStyle.css">
+
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--CSS Styles -->
+
+<!-- Favicons -->
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="assets/icons/apple-touch-icon.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="assets/icons/favicon-32x32.png"
+/>
+
+<!-- Animate CSS CDN -->
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>My portfolio website</title>
+</head>
+
+
+    
+
+<body>
+
+  <!-- Navbar Section -->
+  <nav>
+    <h1>Akhrorjon</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#Skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+
+  
+<!-- Hero -->
+
+<section class="hero" id="about" >
+  <img  class="photo" src="https://miro.medium.com/max/1098/1*MSJ0X6lFb16N4KtT9hVm0w.png"/>
+
+  <div class="bio animate_animated animate_shakeX">
+    <h2 class="bio-title">
+      About Me
+    </h2>
+    <div class="bio-text" >
+     <p><em>Hi,</em><span> I am FrontEnd Web developer.</span> I really love making wonderful websites and web applications which are based on fully responsible and including the amazing animations.
+    </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="more-about"  >
+  <h1>More about me</h1>
+  <div class="personal-image">
+    <img src="images/card-photo.jpg" alt="">
+  </div>
+  <div class="container-about">
+
+    <div class="education activity">
+      <img src="images/education.png" alt="" class="activity-img">
+     <h2>Education</h2>
+      <i class="fas fa-user-graduate"></i>
+<p>Currently, I am studying at the department of English language at the Chonnam National University. I am in the final year of graduation at the Master's degree</p>
+    </div>
+
+    <div class="language activity">
+      <img src="images/language.png" alt="" class="activity-img">
+<h2>Language</h2>
+<i class="fas fa-book-reader"></i>
+<ul>
+  <li>English language ⭐⭐⭐⭐</li>
+  <li>Korean language ⭐⭐⭐</li>
+</ul>
+    </div>
+
+    <div class="hobbies activity">
+      <img src="images/hobby.png" alt="" class="activity-img">
+<h2>Hobbies</h2>
+<i class="far fa-futbol"></i>
+<ul>
+  <li> Traveling</li>
+  <li>Watching football games</li>
+  <li>Listening books</li>
+  <li>Reading books</li>
+</ul>
+    </div>
+
+  </div>
+</section>
+
+  
+<section id="Skills" >
+<h2>My Top Skills</h2>
+<div class="container-skills">
+
+
+  <div class="html box-icon">
+    <img class="box-photo" src="images/html.png" alt="">
+    <span>90 %</span>
+
+    <div class="html-process">
+      <div class="html-percentage"></div>
+    </div>
+  </div>
+
+  <div class="css box-icon">
+    <img class="box-photo" src="images/css.png" alt="">
+    <span>85 %</span>
+    <div class="css-process">
+      <div class="css-percentage"></div>
+    </div>
+  </div>
+
+  <div class="bootstrap box-icon">
+    <img class="box-photo" src="images/bootstrap.png" alt="">
+    <span>80 %</span>
+    <div class="bootstrap-process">
+      <div class="bootstrap-percentage"></div>
+    </div>
+  </div>
+
+  <div class="jqwery box-icon">
+    <img class="box-photo" src="images/jqwery.png" alt="">
+    <span>82 %</span>
+    <div class="jqwery-process">
+      <div class="jqwery-percentage"></div>
+    </div>
+  </div>
+
+  <div class="javascript box-icon">
+    <img class="box-photo" src="images/Javascript.png" alt="">
+    <span>75 %</span>
+    <div class="javascript-process">
+      <div class="javascript-percentage"></div>
+    </div>
+  </div>
+
+  <div class="react box-icon" >
+    <img class="box-photo" src="images/React.png" alt="">
+    <span>10 %</span>
+    <div class="react-process"> 
+      <div class="react-percentage"> 
+       <p>In learning process ........</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<section id="projects">
+<h1 class="heading-projects">Projects</h1>
+<div class="projects-container">
+
+<div class="e-commerce projects-box">
+  <img src="images/E-commerce.png" alt="">
+  <h1>E-commerce website</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, est magni? Quo perferendis excepturi in temporibus, amet praesentium facilis commodi</p>
+  <div class="btn-project">
+    <button><a href="https://akhrorjonuzb.github.io/E-commerce-website/" target="_blank">Live Demo</a></button>
+    <button><a href="https://github.com/Akhrorjonuzb/E-commerce-website" target="_blank">GitHub Repo</a></button>
+  </div>
+</div>
+
+<div class="easybank projects-box">
+  <img src="images/Easybank.png" alt="">
+  <h1>Easybank landing page</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus cumque, perspiciatis animi ad voluptas debitis nesciunt architecto voluptatem harum aperiam.</p>
+  <div class="btn-project">
+    <button><a href="https://akhrorjonuzb.github.io/Easybank-landing-page/" target="_blank">Live Demo</a></button>
+    <button><a href="https://github.com/Akhrorjonuzb/Easybank-landing-page" target="_blank">GitHub Repo</a></button>
+  </div>
+</div>
+
+<div class="tip-calculator projects-box">
+  <!-- <img src="images/Tip-calculator.png" alt=""> -->
+  <img src="images/desktop-design-completed.jpg" alt="">
+  <h1>Tip Calculator</h1>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore hic similique suscipit, asperiores impedit, facilis deleniti tenetur quas fugiat et facere veniam, nulla consequuntur
+  </p>
+  <div class="btn-project">
+    <button><a href="https://akhrorjonuzb.github.io/Tip-Calculator/" target="_blank">Live Demo</a></button>
+    <button><a href="https://github.com/Akhrorjonuzb/Tip-Calculator" target="_blank">GitHub Repo</a></button>
+  </div>
+</div>
+
+<div class="review projects-box">
+  <img src="images/Review.png" alt="">
+  <h1>Review Project</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique modi quis sed voluptatem velit libero neque totam! Quisquam, exercitationem magnam.</p>
+  <div class="btn-project">
+    <button><a href="https://akhrorjonuzb.github.io/Review-staff-project/" target="_blank">Live Demo</a></button>
+    <button><a href="https://github.com/Akhrorjonuzb/Review-staff-project" target="_blank">GitHub Repo</a></button>
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="contact" id="contact" 
+>
+<h2>Get In Touch With Me</h2>
+
+<div class="contact-form-container">
+
+<div class="contact-form">
+
+<form action="http://akhrorbek.sobirov@mail.ru" id="my-form"  method='post'>
+
+  <div class="form-control">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required>
+  </div>
+
+  <div class="form-control">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required>
+  </div>
+
+  <div class="form-control">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="60" rows="10" class="input-field" required>
+    </textarea>
+  </div>
+
+  <input type="submit"  value="Submit" id="submit-btn" class="submit-btn">
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+<div class="socials" 
+>
+  <a href="#" target="_blank"
+    ><img
+      src="icons/icons8-twitter-circled.gif"
+      alt="Twitter"
+      loading="lazy"
+      class="socicon"
+  /></a>
+  <a href="#" target="_blank"
+    ><img
+      src="icons/icons8-instagram.gif"
+      alt="Instagram"
+      loading="lazy"
+      class="socicon"
+  /></a>
+  <a href="#" target="_blank"
+    ><img
+      src="icons/icons8-linkedin-circled.gif"
+      alt="Linkedin"
+      loading="lazy"
+      class="socicon"
+  /></a>
+  <a href="#" target="_blank"
+    ><img src="icons/icons8-github.gif" alt="Github" class="socicon"
+  /></a>
+
+  
+</div>
+
+
+
+<footer>
+
+<p class="copy">&copy; Copyright 2022</p>
+<p class="copy">
+  Built with Html, Css, Javascript by <a href="#" target="_blank">Akhrorjon Sobirov</a>
+</p>
+
+</footer>
+
+<i class="scroll-up" id="scroll-up">
+  <img src="icons/icons8-upward-arrow.gif" class="socicon up-arrow
+  " alt="scroll-up">
+</i>
+  
+
+
+
+<script src="app.js"></script>
+
+<!-- Ion icons scripts -->
+<script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
